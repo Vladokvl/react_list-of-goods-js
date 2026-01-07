@@ -79,7 +79,7 @@ export const App = () => {
         {(sortState || reversedState) && (
           <button
             type="button"
-            className="button is-danger is-light"
+            className={`button is-danger is-light`}
             onClick={() => {
               setSortState('');
               setReversedState(false);
